@@ -11,3 +11,10 @@ Topologias; Sinalização no meio de transmissão; Protocolos e serviços de com
 • Ensinar conceitos fundamentais para analisar e projetar Redes de Computadores;• Atualizar os alunos sobre o estado da arte de Redes de Computadores;
 • Explorar os principais conceitos pertinentes às Redes de Computadores sob oponto de vista técnico e gerencial;
 
+
+### Específicos:
+• Descrever as principais organizações envolvidas na padronização dos protocolosutilizados em redes de computadores;
+• Descrever o modelo OSI com suas diferentes camadas e respectivas funções;
+• Descrever os principais protocolos da arquitetura TCP/IP;
+• Descrever os principais protocolos, junto com suas características, que trabalham em conjunto com a arquitetura TCP/IP; 
+
