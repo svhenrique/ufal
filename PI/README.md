@@ -2,4 +2,4 @@
 
 ## Ementa
 
-Problemas básicos em computação distribuída: coordenação e sincronização deprocessos, exclusão mútua, difusão de mensagens. Compartilhamento de informação: controle deconcorrência, transações distribuídas. Comunicação entre processos. Tolerância a falhas. Sistemasoperacionais distribuídos: sistemas de arquivos, servidores de nomes, memória compartilhada,segurança, estudo de casos
+Princípios físicos de formação de imagens com base no sistema visual humano;  sensores para aquisição de imagens e processos de amostragem equantização; transformações aplicada a imagens, realce, restauração, imagens coloridas, morfologia matemática e segmentação, representação edescrição, e reconhecimento.
