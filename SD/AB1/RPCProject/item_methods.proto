@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+service ItemMethods {
+   rpc GetItens(Message) returns (Message) {}
+   rpc PopItem(Position) returns (Item) {}
+}
+
+message Message {
+ string message = 1;
+}
+
+message Position {
+  int32 position = 1;
+}
+
+message Item {
+    string name = 1;
+}
