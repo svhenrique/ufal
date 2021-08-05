@@ -1,0 +1,4 @@
+produtos = [
+    'banana',
+    'limao',
+    'acucar']
