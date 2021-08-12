@@ -24,3 +24,5 @@ class Comunication:
 class Helo(Comunication):
     pass
 
+class Mail:
+    pass
