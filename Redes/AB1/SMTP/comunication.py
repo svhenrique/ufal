@@ -1,6 +1,6 @@
 import json
 
-class Helo:
+class Comunication:
 
     @staticmethod
     def send(socket, **data):
@@ -20,4 +20,7 @@ class Helo:
             return data
         except Exception as e:
             print(e)
+
+class Helo(Comunication):
+    pass
 
