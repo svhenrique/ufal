@@ -1,22 +1,23 @@
-KEYS = [
-    "email",
-    "to_email",
-    "subject",
-    "body",
-]
+import json
 
-def comunication(*values):
+class Helo:
 
-    if len(values) > len(KEYS):
-        raise ValueError("Too many values passed")
-    if len(values) != 1 or len(values) != 4:
-        raise ValueError("Only 1 or 4 values accepted")
+    @staticmethod
+    def send(socket, **data):
+        data = json.dumps(data)
+        data = data.encode(encoding='utf-8')
+        try:
+            socket.sendall(data)
+        except Exception as e:
+            print(e)
 
-    json = dict()
-    for value in range(len(values)):
-        json[KEYS[value]] = values[value]
-    return json
-
-
-
+    @staticmethod
+    def receive(socket):
+        try:
+            data = socket.recv(1024)
+            data = data.decode(encoding='utf-8')
+            data = json.loads(data)
+            return data
+        except Exception as e:
+            print(e)
 
