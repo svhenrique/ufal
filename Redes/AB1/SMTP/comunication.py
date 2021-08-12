@@ -29,3 +29,6 @@ class Mail(Comunication):
 
 class Rcpt(Comunication):
     pass
+
+class Data(Comunication):
+    pass
