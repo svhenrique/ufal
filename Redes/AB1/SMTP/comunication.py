@@ -27,3 +27,5 @@ class Helo(Comunication):
 class Mail(Comunication):
     pass
 
+class Rcpt(Comunication):
+    pass
