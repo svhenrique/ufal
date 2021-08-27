@@ -1,0 +1,7 @@
+*.env
+*.idea
+__pycache__
+venv
+login-cadastro/db.sqlite3
+.coveragerc
+htmlcov/*
